@@ -1,0 +1,35 @@
+version: "3.8.0"
+
+services:
+  app:
+    build:
+      context: ./leetlab
+      dockerfile: Dockerfile
+    container_name: leetlab_app
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/leetlab
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=2002
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+    depends_on:
+      - postgres
+    networks:
+      - internal
+
+  postgres:
+    image: postgres:latest
+    container_name: leetlab_db
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: 2002
+      POSTGRES_DB: leetlab
+    ports:
+      - "5432:5432"
+    networks:
+      - internal
+
+networks:
+  internal:
+    driver: bridge

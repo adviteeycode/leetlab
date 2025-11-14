@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Project LeetLab\frontend\leetlab\build\windows\x64\CMakeFiles\400dc39511a5b5755e7a9b2563f0cdf0\flutter_windows.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project LeetLab\frontend\leetlab\build\windows\x64\CMakeFiles\d179146e8f82b46aa6b7eca6392b2fc9\flutter_assemble.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project LeetLab\frontend\leetlab\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Project LeetLab\frontend\leetlab\build\windows\x64\flutter\CMakeFiles\flutter_assemble" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8B4546A4-0786-3246-B31C-4C8E38B7E463}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

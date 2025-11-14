@@ -1,0 +1,10 @@
+GET http://localhost:8080/submissions
+Content-Type: application/json
+
+#####
+
+GET http://localhost:8080/submissions/programmer/1
+
+#####
+
+GET http://localhost:8080/submissions/programmer/1/problem/1

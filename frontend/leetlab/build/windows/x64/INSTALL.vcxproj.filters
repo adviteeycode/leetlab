@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Project LeetLab\frontend\leetlab\build\windows\x64\CMakeFiles\c54a9104a5c3e22ad6ef0f95dacfcddd\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8B4546A4-0786-3246-B31C-4C8E38B7E463}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

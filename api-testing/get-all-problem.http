@@ -1,0 +1,17 @@
+GET http://localhost:8080/problems
+Content-Type: application/json
+
+####
+
+GET http://localhost:8080/problems/1
+Content-Type: application/json
+
+####
+
+GET http://localhost:8080/problems/topic/Hash table
+Content-Type: application/json
+
+####
+
+GET http://localhost:8080/problems/difficulty/EASY
+Content-Type: application/json
