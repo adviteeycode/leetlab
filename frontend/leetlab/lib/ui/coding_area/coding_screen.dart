@@ -254,7 +254,6 @@ class _CodingScreenState extends State<CodingScreen> {
     );
   }
 
-  // ---------------- CODE PANEL ----------------
   Widget _buildCodingPanel(Problem problem) {
     final String starterCode = problem.starterCodes.isNotEmpty
         ? problem.starterCodes.first.code
@@ -272,7 +271,6 @@ class _CodingScreenState extends State<CodingScreen> {
     );
   }
 
-  // ---------------- UI ELEMENTS ----------------
   Widget _buildDifficultyTag(String difficulty) {
     Color? color = getDifficultyColor(difficulty);
     return Container(
@@ -394,7 +392,12 @@ class _CodingScreenState extends State<CodingScreen> {
                   color: Theme.of(context).colorScheme.primary,
                 ),
               ),
-              Text(hint, style: Theme.of(context).textTheme.bodyMedium),
+              Expanded(
+                child: Text(
+                  hint,
+                  style: Theme.of(context).textTheme.bodyMedium,
+                ),
+              ),
             ],
           ),
         ),

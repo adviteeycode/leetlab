@@ -5,7 +5,6 @@ Content-Type: application/json
   "problemId": "1",
   "languageId": "71",
   "languageName": "Python",
-  "programmerId": "1",
   "code": "def two_sum(nums, target):\n    seen = {}\n    for i, num in enumerate(nums):\n        complement = target - num\n        if complement in seen:\n            return [seen[complement], i]\n        seen[num] = i\n    return [-1, -1]\n\nnums = list(map(int, input().split()))\ntarget = int(input())\n\nresult = two_sum(nums, target)\nprint(result[0], result[1])"
 }
 

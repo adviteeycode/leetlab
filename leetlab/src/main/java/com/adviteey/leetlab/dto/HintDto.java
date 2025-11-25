@@ -1,7 +1,6 @@
 package com.adviteey.leetlab.dto;
 
 import com.adviteey.leetlab.model.Hint;
-import jakarta.persistence.Entity;
 import lombok.Data;
 
 @Data

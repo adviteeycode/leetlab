@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:leetlab/model/problem.dart';
 
 class ProblemRepository {
-  final String baseUrl = "http://127.0.0.1:8080"; // ✅ safe for Flutter web
+  final String baseUrl = "http://127.0.0.1:8080";
 
   Future<Problem> getProblem(int id) async {
     try {
